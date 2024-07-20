@@ -53,7 +53,7 @@ where
         if !self.character_buffer.is_empty() {
             return self.character_buffer.pop_front();
         }
-        //test
+        //test config
         let mut utf8_buffer = [0, 0, 0, 0];
         let _ = self.reader.read(&mut utf8_buffer);
     }
